@@ -1,0 +1,59 @@
+
+.nav-bar {
+    width: 680px;
+    margin: 0 auto;
+    color:  #676464;
+
+}
+
+.tasks-done.start {
+    background-color: #E8E8E8;
+}
+
+.tasks-done.going {
+    background-color: #D3D3D3;
+}
+
+.tasks-done.hurray {
+    background-color: #A9A9A9;
+    color: whitesmoke;
+}
+
+.tasks-done p {
+    font-size: 18px;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 38px;
+    color: #676464;
+}
+
+.tasks-done {
+    border: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.add-btn {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #eee;
+    position: relative;
+    top: -35px;
+    left: 50%;
+    border: none;
+    font-size: 36px;
+    box-shadow: 1px 1px 5px #676464;
+    color:  #676464;
+}
+
+.add-btn:hover {
+    cursor: pointer;
+    background-color: #676464;
+    color: #eee;
+
+}

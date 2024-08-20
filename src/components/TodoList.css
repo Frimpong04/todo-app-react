@@ -1,0 +1,9 @@
+.lists-container {
+    /* border: 1px solid blue; */
+    margin: 0;
+    padding: 0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
